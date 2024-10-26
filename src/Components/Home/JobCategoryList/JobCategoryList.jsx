@@ -13,12 +13,12 @@ const JobCategoryList = () => {
 
     return (
         <div>
-            <div className="my-10">
+            <div className="my-8">
                 <div className="text-center">
-                    <h2 className="text-5xl font-bold my-4">Job Category List</h2>
-                    <p>Explore thousands of job opportunities with all the information you need. Its your future.</p>
+                    <h2 className="text-xl md:text-2xl lg:text-5xl font-bold my-4">Job Category List</h2>
+                    <p className="mx-5 text-sm md:text-base lg:text-xl mb-2">Explore thousands of job opportunities with all the information you need. Its your future.</p>
                 </div>
-                <div className="grid grid-cols-4 gap-5 mt-4">
+                <div className="mx-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-4">
                     {
                         categories.map(category => <Catagory key={category.id} category={category}></Catagory>)
                     }
