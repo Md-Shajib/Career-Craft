@@ -5,10 +5,10 @@ import Header from "../Header/Header";
 
 const Root = () => {
     return (
-        <div>
-            <div className="container bg-green-50"><Header></Header></div>
+        <div className="">
+            <div className=" bg-green-50"><Header></Header></div>
             <Outlet></Outlet>
-            <div className="bg-slate-800 container"><Footer></Footer></div>
+            <div className="bg-slate-800 "><Footer></Footer></div>
         </div>
     );
 };

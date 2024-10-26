@@ -13,7 +13,7 @@ const JobCategoryList = () => {
 
     return (
         <div>
-            <div className="container my-10">
+            <div className="my-10">
                 <div className="text-center">
                     <h2 className="text-5xl font-bold my-4">Job Category List</h2>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future.</p>
