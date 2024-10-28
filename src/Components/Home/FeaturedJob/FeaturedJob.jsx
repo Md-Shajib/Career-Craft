@@ -1,15 +1,20 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import Job from "./Job";
+import { jobContext } from "../../Root/Root";
 
 const FeaturedJob = () => {
-    const [jobs, setJobs] = useState([])
-    useEffect( ()=>{
-        fetch('jobs.json')
-        .then(res => res.json())
-        .then(data => setJobs(data))
-    } , [])
 
-const [dataLength, setDataLength] = useState(4)
+    const [jobs, ] = useContext(jobContext)
+
+    // const [jobs, setJobs] = useState([])
+    // useEffect( ()=>{
+    //     fetch('jobs.json')
+    //     .then(res => res.json())
+    //     .then(data => setJobs(data))
+    // } , [])
+
+    const [dataLength, setDataLength] = useState(4)
+
     return (
         <div className="">
             <div className="text-center mb-5">

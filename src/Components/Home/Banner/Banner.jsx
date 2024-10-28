@@ -11,7 +11,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="w-2/5">
-                    <img src="../../../assets/images/user.png" alt="" />
+                    <img src={'https://i.ibb.co.com/5WZZ3nz/user.png'} alt="" />
                 </div>
             </div>
         </div>

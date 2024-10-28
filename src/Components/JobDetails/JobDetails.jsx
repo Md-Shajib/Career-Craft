@@ -27,17 +27,17 @@ const JobDetails = () => {
         <div className="">
             <JobDetailsBaner></JobDetailsBaner>
 
-            <div className=" flex w-full">
-                <div className="w-3/5 p-5">
-                    <p className="font-bold text-2xl py-2 text-justify">Job Description: <span className="text-[18px] font-normal">{job_description}</span>
+            <div className=" md:flex w-full">
+                <div className="md:w-3/5 md:p-1 lg:p-2 mx-2 mb-3">
+                    <p className="mb-2 text-justify"><span className="font-bold text-xl ">Job Description: </span><span className="text-base font-normal">{job_description}</span>
                     </p>
-                    <p className="font-bold text-2xl py-2 text-justify">Job Responsiblity: <span className="text-[18px] font-normal">{job_responsibility}</span></p>
-                    <p className="font-bold text-2xl py-2">Educational Requirements: <span className="text-[18px] font-normal">{educational_requirements}</span></p>
-                    <p className="font-bold text-2xl py-2">Experience: <span className="text-[18px] font-normal">{experiences}</span></p>
+                    <p className="font-bold text-xl py-2 text-justify"><span>Job Responsiblity:</span> <span className="text-base font-normal">{job_responsibility}</span></p>
+                    <p className="font-bold text-xl py-2"><span>Educational Requirements:</span> <span className="text-base font-normal">{educational_requirements}</span></p>
+                    <p className="font-bold text-xl py-2">Experience: <span className="text-base font-normal">{experiences}</span></p>
                 </div>
-                <div className="w-2/5 p-8 bg-green-100 m-10 rounded-xl leading-relaxed flex flex-col">
+                <div className="md:w-2/5 p-3 md:p-8 bg-green-100 m-3 rounded-xl leading-relaxed flex flex-col">
                     <div className="flex-grow">
-                        <p className="font-bold text-xl">Job Details</p> <hr className="my-2"/>
+                        <p className="font-bold text-xl">More Details</p> <hr className="my-2"/>
                         <div className="flex items-center">
                             <p className="text-blue-800 mr-2"><AiOutlineDollarCircle /></p>
                             <p><span className="font-bold">Salary:</span> {salary} per month</p>
@@ -60,7 +60,7 @@ const JobDetails = () => {
                             <p><span className="font-bold">Address:</span> {contact_information.address}</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="mt-4">
                         <Link>
                             <button onClick={notice} className="w-full py-2 px-5 rounded-md text-white tracking-wider font-bold bg-gradient-to-r from-[#7e90fe] to-[#9873ff]">Apply Now</button>
                             <ToastContainer></ToastContainer>

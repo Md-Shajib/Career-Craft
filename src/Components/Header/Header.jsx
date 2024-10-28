@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     const links = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/jobs'}>Jobs</NavLink></li>
+        <li><NavLink to={'/post_jobs'}>Post Job</NavLink></li>
         <li><NavLink to={'/appliedJobs'}>Applied Jobs</NavLink></li>
         <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
         {/* <li><NavLink to={'/blogs'}>Blogs</NavLink></li> */}

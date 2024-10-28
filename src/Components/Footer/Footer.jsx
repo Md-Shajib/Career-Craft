@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
             <hr className="mt-5"/>
             <div className="md:flex md:justify-between md:px-8 md:pt-5 text-center">
-                <p className="text-sm mt-1 md:mt-0"><span className="text-blue-600 mr-1 font-bold text-lg">&copy;</span>2023 Career Craft. All Rights Reserved</p>
+                <p className="text-sm mt-1 md:mt-0"><span className="text-blue-600 mr-1 font-bold text-lg">&copy;</span>2024 Career Craft. All Rights Reserved</p>
                 <p className="text-sm mt-2 md:mt-0">Powered by Career Craft</p>
             </div>
         </div>
